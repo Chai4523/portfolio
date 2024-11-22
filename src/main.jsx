@@ -1,13 +1,22 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import Intro from "./components/Intro";
+import Skillset from "./components/Skillset";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <h1 className="main-heading">CHAI CHUNG YEE</h1>
-      <p>frontend developer / software engineer</p>
-      <button>Contact Me</button>
+      <Header />
+      <Intro />
+      <Skillset />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
