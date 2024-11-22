@@ -7,14 +7,35 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  width: 70%;
+  margin: 96px auto;
+  padding: 0 96px;
+  max-width: 1280px;
   color: white;
   background-color: black;
-  background-image: linear-gradient(#1E201E 70%, #3C3D37 );
+  background-image: linear-gradient(#1e201e 94%, #3c3d37);
   background-repeat: no-repeat;
 }
 
-.main-heading {
-  font-family: "Kanit", sans-serif;
+p {
+  font-size: 20px;
 }
+
+.main-heading {
+  color: #f6dea0;
+  font-size: 52px;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.sub-heading {
+  color: #f6dea0;
+  font-size: 20px;
+  letter-spacing: -0.025em;
+  margin: 10px 0 0;
+}
+/* 
+fs
+56
+20
+18
+*/

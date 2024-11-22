@@ -1,4 +1,4 @@
-export default function Skillset() {
+export default function About() {
   return (
     <div>
       <p>
