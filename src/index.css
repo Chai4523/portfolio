@@ -7,17 +7,19 @@ html {
 }
 
 body {
-  margin: 96px auto;
+  margin: 0 auto;
   padding: 0 96px;
   max-width: 1280px;
   color: white;
   background-color: black;
   background-image: linear-gradient(#1e201e 94%, #3c3d37);
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 p {
   font-size: 16px;
+  line-height: 160%;
 }
 
 .main-heading {
@@ -34,17 +36,43 @@ p {
   margin: 10px 0 0;
 }
 
+.intro {
+  max-width: 320px;
+}
+
 .icon {
   padding-right: 20px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
-/* 
-fs
-56
-20
-18
-*/
+
+.grid-left {
+  top: 0;
+  position: sticky;
+  grid-row: 1 / 4;
+  height: 100vh;
+  padding: 96px 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid-right {
+  grid-column-start: 2;
+  max-height: 50vh;
+  box-sizing: border-box;
+}
+
+.pd-top-96 {
+  padding-top: 96px;
+}
+
+.pd-bot-96 {
+  padding-bottom: 96px;
+}

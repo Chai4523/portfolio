@@ -4,19 +4,19 @@ import gitLogo from "../assets/icons8-git.svg";
 
 export default function About() {
   return (
-    <div>
+    <div className="grid-right pd-top-96">
       <p>
         As a software developer specializing in frontend development, I leverage
         a diverse set of modern technologies like{" "}
-        <b>JavaScript, React and Git </b> to build dynamic,
-        responsive web applications. Ensuring aesthethically appealing design
-        and seamless user experiences across devices.
+        <b>JavaScript, React and Git </b> to build dynamic, responsive web
+        applications. Ensuring aesthethically appealing design and seamless user
+        experiences across devices.
       </p>
-      <nav>
+      <div>
         <img src={jsLogo} alt="Javascript icon" className="icon" />
-        <img src={reactLogo} alt="Javascript icon" className="icon" />
-        <img src={gitLogo} alt="Javascript icon" className="icon" />
-      </nav>
+        <img src={reactLogo} alt="React icon" className="icon" />
+        <img src={gitLogo} alt="Git icon" className="icon" />
+      </div>
     </div>
   );
 }
