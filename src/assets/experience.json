@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "date": "MAY - AUG 2023",
+      "title": "Android Developer",
+      "company": "Fomatic Technology",
+      "description": "Develop android applications as per design specification and intergrate client-side APIs into said application.",
+      "techs": ["Android", "Jetpack Compose", "Kotlin"]
+    },
+    {
+      "date": "2022 - 2023",
+      "title": "Software Engineer",
+      "company": "Imocha",
+      "description": "Collaborate with cross functional teams to deliver frontend features and enhancement for an agent-facing insurance web application.",
+      "techs": ["Angular", "TypeScript", "NGXS", "Tortoise SVN"]
+    },
+    {
+      "date": "DEC - FEB 2021",
+      "title": "Software Engineer Intern",
+      "company": "Imocha",
+      "description": "Completed Ionic and Angular framework training. Implemented firebase crashlytic on a mock application before integrating the feature on client's application.",
+      "techs": ["Ionic", "Angular", "TypeScript", "Firebase", "CSS"]
+    }
+  ]
+}
