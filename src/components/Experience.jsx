@@ -1,4 +1,5 @@
 import { data } from "../assets/experience";
+import resume from "../assets/chai_chung_yee_resume.pdf";
 
 export default function Experience() {
   const cardEls = data.map((data) => (
@@ -7,7 +8,7 @@ export default function Experience() {
       <div className="card-info">
         <div>
           <h3>
-            {data.title} • {data.company}
+            {data.title} · {data.company}
           </h3>
           <p>{data.description}</p>
         </div>
@@ -24,9 +25,9 @@ export default function Experience() {
     <div className="grid-right">
       <h2>EXPERIENCE</h2>
       {cardEls}
-      <div className="mg-top-48">
-        <a href="#">View full resume</a>
-      </div>
+      <a href={resume} target="_blank" rel="noopener noreferrer">
+        View full resume
+      </a>
     </div>
   );
 }
