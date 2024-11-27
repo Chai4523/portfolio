@@ -20,5 +20,13 @@ export default function Experience() {
     </div>
   ));
 
-  return cardEls;
+  return (
+    <div className="grid-right">
+      <h2>EXPERIENCE</h2>
+      {cardEls}
+      <div className="mg-top-48">
+        <a href="#">View full resume</a>
+      </div>
+    </div>
+  );
 }

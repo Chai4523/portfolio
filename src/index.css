@@ -17,9 +17,24 @@ body {
   background-attachment: fixed;
 }
 
+h2 {
+  color: white;
+  margin-top: 0;
+  font-size: 20px;
+}
+
 p {
   font-size: 16px;
   line-height: 160%;
+}
+
+b {
+  color: white;
+}
+
+a {
+  color: #f3d688;
+  text-decoration: none;
 }
 
 .main-heading {
@@ -65,8 +80,8 @@ p {
 
 .grid-right {
   grid-column-start: 2;
-  max-height: 50vh;
-  box-sizing: border-box;
+  max-width: 600px;
+  margin-bottom: 140px;
 }
 
 .pd-top-96 {
@@ -77,8 +92,17 @@ p {
   padding-bottom: 96px;
 }
 
+.mg-0 {
+  margin: 0;
+}
+
+.mg-top-48 {
+  margin-top: 48px;
+}
+
 .card {
   display: flex;
+  margin-bottom: 48px;
 }
 
 .card h3 {
@@ -91,6 +115,12 @@ p {
   white-space: nowrap;
   padding-right: 15px;
   min-width: 130px;
+}
+
+.card-img {
+  max-width: 150px;
+  border-radius: 4px;
+  margin-right: 20px;
 }
 
 .card-info {
