@@ -4,7 +4,7 @@ import gitLogo from "../assets/icons8-git.svg";
 
 export default function About() {
   return (
-    <div className="grid-right pd-top-96 about">
+    <div className="pb-80">
       <h2>ABOUT</h2>
       <p>
         As a software developer specializing in frontend development, I leverage

@@ -22,7 +22,7 @@ export default function Experience() {
   ));
 
   return (
-    <div className="grid-right">
+    <div className="pb-80">
       <h2>EXPERIENCE</h2>
       {cardEls}
       <a href={resume} target="_blank" rel="noopener noreferrer">

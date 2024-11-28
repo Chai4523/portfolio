@@ -2,7 +2,7 @@ import vansLife from "../assets/vans_life.jpg";
 
 export default function Projects() {
   return (
-    <div className="grid-right">
+    <div className="pb-80">
       <h2>PROJECTS</h2>
       <div className="card">
         <img

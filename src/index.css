@@ -40,21 +40,47 @@ a {
   text-decoration: none;
 }
 
-.main-heading {
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left {
+  top: 0;
+  position: sticky;
+  height: 100vh;
+  min-width: 350px;
+  padding: 96px 15px 96px 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.bio-heading {
   color: white;
   font-size: 48px;
   letter-spacing: -0.025em;
   margin: 0;
 }
 
-.sub-heading {
+.bio-subtitle {
   color: white;
   font-size: 16px;
   letter-spacing: -0.025em;
   margin: 10px 0 0;
 }
 
-.intro {
+.bio-desc {
   max-width: 320px;
 }
 
@@ -68,7 +94,7 @@ a {
 
   padding: 0 14px;
   width: max-content;
-  margin-bottom: 40px;
+  margin: 0 auto 40px auto;
   animation: blink 10s infinite;
 }
 
@@ -98,44 +124,17 @@ a {
   padding-right: 20px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 3rem;
-}
-
-.grid-left {
-  top: 0;
-  position: sticky;
-  grid-row: 1 / 5;
-  height: 100vh;
-  padding: 96px 0;
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.grid-right {
-  grid-column-start: 2;
-  margin-bottom: 120px;
-}
-
-.pd-top-96 {
-  padding-top: 96px;
-}
-
-.pd-bot-96 {
-  padding-bottom: 96px;
+.right {
+  padding: 126px 0 96px 15px;
+  max-width: 600px;
 }
 
 .mg-0 {
   margin: 0;
 }
 
-.about {
-  padding: 96px 20px 0 0;
+.pb-80 {
+  padding-bottom: 80px;
 }
 
 .card {
@@ -176,7 +175,9 @@ a {
 
 .card-techs {
   display: flex;
-  white-space: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .card-techs > div {
@@ -185,4 +186,5 @@ a {
   border-radius: 20px;
   padding: 4px 12px;
   margin-right: 10px;
+  white-space: nowrap;
 }
