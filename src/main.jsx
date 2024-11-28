@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import "./assets/NeonRetroRegular.otf";
-import Header from "./components/Header";
+import Bio from "./components/Bio";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="main">
       <div className="left">
-        <Header />
+        <Bio />
       </div>
       <div className="right">
         <About />

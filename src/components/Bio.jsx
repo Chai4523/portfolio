@@ -1,7 +1,7 @@
 import githubLogo from "../assets/icons8-github.svg";
 import linkedinLogo from "../assets/icons8-linkedin.svg";
 
-export default function Header() {
+export default function Bio() {
   let lookingForWork = true;
 
   return (
