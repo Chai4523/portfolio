@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="pb-80">
       <h2>PROJECTS</h2>
-      <div className="card">
+      <div className="img-container">
         <img
           src={vansLife}
           alt="Snapshot of Vans Life application"
