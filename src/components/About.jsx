@@ -9,7 +9,7 @@ export default function About() {
     [gitLogo, "Git"],
   ].map((icon) => (
     <span key={crypto.randomUUID()} className="icon-wrapper">
-      <img src={icon[0]} alt={`${icon[1]} icon`} />
+      <img src={icon[0]} alt={`${icon[1]} icon`} className="icon"/>
     </span>
   ));
 

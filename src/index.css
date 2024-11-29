@@ -200,6 +200,10 @@ a {
     border-radius: 5px;
   }
 
+  .icon {
+    opacity: 0.7;
+  }
+
   .linked-icon {
     opacity: 0.7;
     transition-duration: 0.3s;
