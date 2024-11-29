@@ -18,8 +18,32 @@ export default function Bio() {
 
       <div>
         {lookingForWork && <div className="status">Open for work</div>}
-        <img src={githubLogo} alt="Github icon" className="icon" />
-        <img src={linkedinLogo} alt="Linkedin icon" className="icon" />
+
+        <a
+          href="https://github.com/chai4523"
+          target="_blank"
+          rel="noreferrer noopener"
+          title="GitHub"
+        >
+          <span className="icon-wrapper">
+            <img src={githubLogo} alt="Github icon" className="linked-icon" />
+          </span>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/chai4523/"
+          target="_blank"
+          rel="noreferrer noopener"
+          title="LinkedIn"
+        >
+          <span className="icon-wrapper">
+            <img
+              src={linkedinLogo}
+              alt="Linkedin icon"
+              className="linked-icon"
+            />
+          </span>
+        </a>
       </div>
     </div>
   );

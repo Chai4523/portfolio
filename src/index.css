@@ -94,7 +94,7 @@ a {
 
   padding: 0 14px;
   width: max-content;
-  margin: 0 auto 40px auto;
+  margin-bottom: 40px;
   animation: blink 10s infinite;
 }
 
@@ -120,7 +120,7 @@ a {
   }
 }
 
-.icon {
+.icon-wrapper {
   padding-right: 20px;
 }
 
@@ -194,9 +194,19 @@ a {
     padding: 20px;
     transition-duration: 0.3s;
   }
+
   .card:hover {
     background-color: #282828;
     border-radius: 5px;
+  }
+
+  .linked-icon {
+    opacity: 0.7;
+    transition-duration: 0.3s;
+  }
+
+  .linked-icon:hover {
+    opacity: 1;
   }
 }
 

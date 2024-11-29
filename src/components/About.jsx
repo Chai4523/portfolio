@@ -3,6 +3,16 @@ import reactLogo from "../assets/icons8-react.svg";
 import gitLogo from "../assets/icons8-git.svg";
 
 export default function About() {
+  const iconRow = [
+    [jsLogo, "Javascript"],
+    [reactLogo, "React"],
+    [gitLogo, "Git"],
+  ].map((icon) => (
+    <span key={crypto.randomUUID()} className="icon-wrapper">
+      <img src={icon[0]} alt={`${icon[1]} icon`} />
+    </span>
+  ));
+
   return (
     <div className="pb-80">
       <h2>ABOUT</h2>
@@ -13,11 +23,7 @@ export default function About() {
         applications. Ensuring aesthethically appealing design and seamless user
         experiences across devices.
       </p>
-      <div>
-        <img src={jsLogo} alt="Javascript icon" className="icon" />
-        <img src={reactLogo} alt="React icon" className="icon" />
-        <img src={gitLogo} alt="Git icon" className="icon" />
-      </div>
+      <div>{iconRow}</div>
     </div>
   );
 }
