@@ -1,25 +1,33 @@
-import vansLife from "../assets/vans_life.jpg";
 import cooklet from "../assets/cooklet.png";
+import movieApp from "../assets/movie-app.png";
 
 export default function Projects() {
   return (
     <div className="pb-80">
       <h2>PROJECTS</h2>
-      <div className="img-container">
-        <img
-          src={vansLife}
-          alt="Snapshot of Vans Life application"
-          className="card-img"
-        />
-        <div className="card-info">
-          <h3>Vans Life</h3>
-          <p className="mg-0">
-            A single page application built while learning React Router 6 on a
-            scrimba course. Integrated with firebase to handle data
-            communication.
-          </p>
+      <a
+        href="https://c4523-movie-app.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="card-link"
+      >
+        <div className="img-container">
+          <img
+            src={movieApp}
+            alt="Snapshot of movie-app"
+            className="card-img"
+          />
+          <div className="card-info">
+            <h3>Movie app</h3>
+            <p className="mg-0">
+              A Movie/TV discovery web app that showcases curated categories
+              like trending, top-rated and genre-specific selections. Equipped
+              with search functionality and a detailed overview of selected
+              film, providing a smooth browsing experience for film enthusiasts.
+            </p>
+          </div>
         </div>
-      </div>
+      </a>
       <a
         href="https://cooklet.vercel.app/"
         target="_blank"
@@ -35,7 +43,7 @@ export default function Projects() {
           <div className="card-info">
             <h3>Cooklet</h3>
             <p className="mg-0">
-              A responsive web application that will allow user to search for a
+              A responsive web application that allows user to search for a
               variety of food recipe with options to suit their dietary needs.
               This app is built with
               <a

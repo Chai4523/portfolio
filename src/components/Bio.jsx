@@ -10,9 +10,8 @@ export default function Bio() {
         <h1 className="bio-heading">Chai Chung Yee</h1>
         <h2 className="bio-subtitle">Software Engineer</h2>
         <p className="bio-desc">
-          I am a developer who strives to build visually appealing and highly
-          functional websites by combining the latest web technologies with a
-          passion for creating seamless user experiences.
+          I create seamless digital experience with clean and
+          scalable frontend solutions.
         </p>
       </div>
 

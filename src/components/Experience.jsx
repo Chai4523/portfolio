@@ -25,7 +25,7 @@ export default function Experience() {
     <div className="pb-80">
       <h2>EXPERIENCE</h2>
       {cardEls}
-      <a href={resume} target="_blank" rel="noopener noreferrer">
+      <a href={resume} target="_blank" rel="noopener noreferrer" className="tag-link">
         View full resume
       </a>
     </div>

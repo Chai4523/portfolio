@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "date": "MAY - AUG 2023",
+      "date": "May - Aug 2023",
       "title": "Android Developer",
       "company": "Fomatic Technology",
       "description": "Develop android applications as per design specification and intergrate client-side APIs into said application.",
@@ -15,7 +15,7 @@
       "techs": ["Angular", "TypeScript", "NGXS", "Tortoise SVN"]
     },
     {
-      "date": "DEC - FEB 2021",
+      "date": "Dec - Feb 2021",
       "title": "Software Engineer Intern",
       "company": "Imocha",
       "description": "Completed Ionic and Angular framework training. Implemented firebase crashlytic on a mock application before integrating the feature on client's application.",

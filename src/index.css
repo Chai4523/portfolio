@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 0 96px;
+  padding: 0 48px;
   max-width: 1280px;
   color: #b7c4cf;
   background-color: black;
@@ -29,6 +29,7 @@ h2 {
 p {
   font-size: 16px;
   line-height: 160%;
+  font-weight: normal;
 }
 
 b {
@@ -36,8 +37,13 @@ b {
 }
 
 a {
-  color: #f3d688;
+  color: white;
+  font-weight: bold;
   text-decoration: none;
+}
+
+.tag-link:hover {
+  color: #ffcf40;
 }
 
 .main {
@@ -75,13 +81,14 @@ a {
 
 .bio-subtitle {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: -0.025em;
   margin: 10px 0 0;
 }
 
 .bio-desc {
   max-width: 320px;
+  margin: 20px 0;
 }
 
 .status {
@@ -125,7 +132,8 @@ a {
 }
 
 .right {
-  padding: 126px 0 96px 20px;
+  padding: 96px 0 96px 20px;
+  margin-top: 33px;
   max-width: 600px;
 }
 
@@ -151,6 +159,23 @@ a {
 .img-container h3 {
   color: white;
   margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card:hover {
+  h3 {
+    color: #ffcf40;
+  }
+}
+
+.img-container:hover {
+  h3 {
+    color: #ffcf40;
+  }
+
+  .card-img {
+    border-color: dimgray;
+  }
 }
 
 .card-link {
@@ -166,9 +191,9 @@ a {
 }
 
 .card-img {
-  align-self: center;
   max-width: 150px;
   max-height: 100px;
+  border: 2px solid transparent;
   border-radius: 4px;
   margin-right: 20px;
 }
@@ -187,12 +212,18 @@ a {
 }
 
 .card-techs > div {
-  color: #f6dea0;
-  background-color: #39352b;
+  color: #fcd05a;
+  background-color: #2e2a24;
   border-radius: 20px;
   padding: 4px 12px;
   margin-right: 10px;
   white-space: nowrap;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  font-size: 14px;
+  max-width: 450px;
 }
 
 @media (width >= 1024px) {
@@ -202,7 +233,7 @@ a {
   }
 
   .card:hover {
-    background-color: #282828;
+    background-color: #1e1e1c;
     border-radius: 5px;
   }
 
@@ -225,7 +256,7 @@ a {
   }
 
   .img-container:hover {
-    background-color: #282828;
+    background-color: #1e1e1c;
     border-radius: 5px;
   }
 }

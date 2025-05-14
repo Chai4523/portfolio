@@ -1,29 +1,38 @@
-import jsLogo from "../assets/icons8-js.svg";
-import reactLogo from "../assets/icons8-react.svg";
-import gitLogo from "../assets/icons8-git.svg";
-
 export default function About() {
-  const iconRow = [
-    [jsLogo, "Javascript"],
-    [reactLogo, "React"],
-    [gitLogo, "Git"],
-  ].map((icon) => (
-    <span key={crypto.randomUUID()} className="icon-wrapper">
-      <img src={icon[0]} alt={`${icon[1]} icon`} className="icon"/>
-    </span>
-  ));
+  const anchor = (url, text = "") => (
+    <a href={url} target="_blank" rel="noopener noreferrer" className="tag-link">
+      {text}
+    </a>
+  );
+
+  const reactLink = anchor("https://react.dev/", "React");
+  const movieAppLink = anchor(
+    "https://c4523-movie-app.vercel.app/",
+    "a movie discovery app"
+  );
 
   return (
     <div className="pb-80">
       <h2>ABOUT</h2>
       <p>
-        As a software developer specializing in frontend development, I leverage
-        a diverse set of modern technologies like{" "}
-        <b>JavaScript, React and Git </b> to build dynamic, responsive web
-        applications. Ensuring aesthethically appealing design and seamless user
-        experiences across devices.
+        I am a developer who strives to build visually appealing and highly
+        functional websites by combining the latest web technologies with a
+        passion for creating seamless user experiences.
+        <br />
+        <br />
+        As a software developer specializing in frontend development, I
+        contribute to the creation and maintenance of UI components of the
+        project, ensuring they align with design specifications and function
+        seamlessly across devices. I focus on writing efficient, scalable code
+        to enhance performance, while following modern development practices and
+        maintaining consistency through reusable components and clean
+        architecture.
+        <br />
+        <br />
+        Recently, I have been working on {reactLink} and created {movieAppLink},
+        which helped me deepen my understanding of component-based architecture,
+        state management, and API integration through hands-on experience.
       </p>
-      <div>{iconRow}</div>
     </div>
   );
 }
