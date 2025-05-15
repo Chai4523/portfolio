@@ -5,5 +5,9 @@
 
 [![Site preview](/src/assets/portfolio.png)](https://chai4523.github.io/portfolio/)
 
-Welcome to my typographic focused personal portfolio repository! It is built with [React](https://react.dev/) and [Vite](https://vite.dev/), hosted on [Vercel](https://vercel.com/). Check out the live version of my portfolio [here](https://chai4523.github.io/portfolio/).
+Welcome to my typographic focused personal portfolio repository! This project showcases my journey as a software developer, highlighting my skills, projects, and experiences in a clean and responsive layout.
 
+## 🚀 Live Demo
+
+Explore the live version of my portfolio here:  
+👉 [https://chai4523.github.io/portfolio/](https://chai4523.github.io/portfolio/)
