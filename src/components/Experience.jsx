@@ -3,7 +3,13 @@ import resume from "../assets/chai_chung_yee_resume.pdf";
 
 export default function Experience() {
   const cardEls = data.map((data) => (
-    <div key={crypto.randomUUID()} className="card">
+    <a
+      key={crypto.randomUUID()}
+      href={data.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card card-link"
+    >
       <div className="card-date">{data.date}</div>
       <div className="card-info">
         <div>
@@ -18,14 +24,19 @@ export default function Experience() {
           ))}
         </div>
       </div>
-    </div>
+    </a>
   ));
 
   return (
     <div className="pb-80">
       <h2>EXPERIENCE</h2>
       {cardEls}
-      <a href={resume} target="_blank" rel="noopener noreferrer" className="tag-link">
+      <a
+        href={resume}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="tag-link"
+      >
         View full resume
       </a>
     </div>

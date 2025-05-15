@@ -19,12 +19,17 @@ export default function Projects() {
           />
           <div className="card-info">
             <h3>Movie app</h3>
-            <p className="mg-0">
+            <p className="mt-0">
               A Movie/TV discovery web app that showcases curated categories
               like trending, top-rated and genre-specific selections. Equipped
               with search functionality and a detailed overview of selected
               film, providing a smooth browsing experience for film enthusiasts.
             </p>
+            <div className="card-techs">
+              {["React", "TMDB API", "Mantine UI"].map((tech) => (
+                <div key={crypto.randomUUID()}>{tech}</div>
+              ))}
+            </div>
           </div>
         </div>
       </a>
@@ -42,7 +47,7 @@ export default function Projects() {
           />
           <div className="card-info">
             <h3>Cooklet</h3>
-            <p className="mg-0">
+            <p className="mt-0">
               A responsive web application that allows user to search for a
               variety of food recipe with options to suit their dietary needs.
               This app is built with
@@ -64,6 +69,11 @@ export default function Projects() {
               </a>
               .
             </p>
+            <div className="card-techs">
+              {["React", "Spoonacular API", "HTML & CSS"].map((tech) => (
+                <div key={crypto.randomUUID()}>{tech}</div>
+              ))}
+            </div>
           </div>
         </div>
       </a>
