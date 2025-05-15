@@ -4,7 +4,7 @@
       "date": "May - Aug 2023",
       "title": "Android Developer",
       "company": "Fomatic Technology",
-      "description": "Develop android applications as per design specification and intergrate client-side APIs into said application.",
+      "description": "Developed a native Android application using Jetpack Compose and Retrofit, collaborating with international teams to deliver a clean, scalable product based on project specifications.",
       "techs": ["Android", "Jetpack Compose", "Kotlin"],
       "url": "https://fomatictech.com/"
     },
@@ -12,7 +12,7 @@
       "date": "2022 - 2023",
       "title": "Software Engineer",
       "company": "Imocha",
-      "description": "Collaborate with cross functional teams to deliver frontend features and enhancement for an agent-facing insurance web application.",
+      "description": "Overhaul and maintained a financial web application using Angular and NGXS, redesigned 500+ UI components, and ensured cross-device reliability through comprehensive testing.",
       "techs": ["Angular", "TypeScript", "NGXS", "Tortoise SVN"],
       "url": "https://www.imocha.com.my/"
     },
@@ -20,7 +20,7 @@
       "date": "Dec - Feb 2021",
       "title": "Software Engineer Intern",
       "company": "Imocha",
-      "description": "Completed Ionic and Angular framework training. Implemented firebase crashlytic on a mock application before integrating the feature on client's application.",
+      "description": "Assisted in developing an E-wallet and Loyalty app with Ionic and Angular, implementing UI components, resolving bugs, and gaining agile workflow and debugging experience.",
       "techs": ["Ionic", "Angular", "TypeScript", "Firebase", "CSS"],
       "url": "https://www.imocha.com.my/"
     }

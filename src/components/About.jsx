@@ -1,6 +1,11 @@
 export default function About() {
   const anchor = (url, text = "") => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="tag-link">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="tag-link"
+    >
       {text}
     </a>
   );
@@ -23,10 +28,10 @@ export default function About() {
         As a software developer specializing in frontend development, I
         contribute to the creation and maintenance of UI components of the
         project, ensuring they align with design specifications and function
-        seamlessly across devices. I focus on writing efficient, scalable code
-        to enhance performance, while following modern development practices and
-        maintaining consistency through reusable components and clean
-        architecture.
+        seamlessly across devices. I focus on writing efficient, scalable
+        code that enhances performance, adheres to modern development best
+        practices, and promotes maintainability through reusable components and
+        clean, modular architecture.
         <br />
         <br />
         Recently, I have been working on {reactLink} and created {movieAppLink},

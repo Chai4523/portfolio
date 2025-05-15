@@ -48,26 +48,10 @@ export default function Projects() {
           <div className="card-info">
             <h3>Cooklet</h3>
             <p className="mt-0">
-              A responsive web application that allows user to search for a
-              variety of food recipe with options to suit their dietary needs.
-              This app is built with
-              <a
-                href="https://spoonacular.com/food-api"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                Spoonacular API
-              </a>
-              , hosted on{" "}
-              <a
-                href="https://vercel.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Vercel
-              </a>
-              .
+              Cooklet is a simple recipe browsing app that helps users discover
+              new dishes and cooking ideas. Designed with ease of use in mind,
+              the app lets people explore different recipes in a clean, modern
+              interface.
             </p>
             <div className="card-techs">
               {["React", "Spoonacular API", "HTML & CSS"].map((tech) => (
