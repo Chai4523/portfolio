@@ -1,8 +1,9 @@
-# React + Vite
+<p align="center">
+  <img src="src/assets/favicon.png" width="50" alt="Logo" />
+</p>
+<h1 align="center">Personal portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Site preview](/src/assets/portfolio.png)](https://chai4523.github.io/portfolio/)
 
-Currently, two official plugins are available:
+Welcome to my typographic focused personal portfolio repository! It is built with [React](https://react.dev/) and [Vite](https://vite.dev/), hosted on [Vercel](https://vercel.com/). Check out the live version of my portfolio [here](https://chai4523.github.io/portfolio/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
