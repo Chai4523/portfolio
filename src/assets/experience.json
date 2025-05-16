@@ -12,7 +12,7 @@
       "date": "2022 - 2023",
       "title": "Software Engineer",
       "company": "Imocha",
-      "description": "Overhaul and maintained a financial web application using Angular and NGXS, redesigned 500+ UI components, and ensured cross-device reliability through comprehensive testing.",
+      "description": "Overhaul and maintained a financial web application using Angular and NGXS, redesigned over 500+ UI components, and ensured cross-device reliability through comprehensive testing.",
       "techs": ["Angular", "TypeScript", "NGXS", "Tortoise SVN"],
       "url": "https://www.imocha.com.my/"
     },
